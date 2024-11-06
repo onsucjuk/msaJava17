@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/onsucjuk/SpringConfigFile2
+          username: onsucjuk
+          password: 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
+          default-label: master
+          search-paths: msa
+
