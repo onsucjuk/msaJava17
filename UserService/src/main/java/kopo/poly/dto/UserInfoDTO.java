@@ -12,7 +12,7 @@ public record UserInfoDTO(
         String addr1,
         String addr2,
         String regId,
-        String regDT,
+        String regDt,
         String chgId,
         String chgDt,
         String roles

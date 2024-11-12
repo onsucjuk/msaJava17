@@ -15,10 +15,10 @@ public class SwaggerConfig {
                 .description("User Service Dexcription!!") // 문서 설명
                 .contact(new Contact().name("Prof. Jeonguk Choi") // 명세서 작성자
                         .email("onsucjuk@naver.com")
-                        .url("https://github.com/onsucjuk")
+                        .url("https://github.com/onsucjuk/msaJava17")
                 )
                 .license(new License()
-                        .name("내 프로젝트"))
+                        .name("MSA 프로젝트"))
                 .version("1.0.0");
     }
 
